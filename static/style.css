@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #FFEAA7;
+  --card: #FF6868;
+  --text: #DCFFB7;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  margin: 1rem;
+  padding: .5rem;
+  background-color: var(--card);
+  color: black;
+}
+
+.intro .intro__header {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+  gap: 1rem;
+}
